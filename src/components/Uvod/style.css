@@ -1,0 +1,41 @@
+/* 
+COLOURS:
+
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+main {
+  min-height: 80%;
+  margin: 0 150px;
+}
+.intro-container {
+  display: flex;
+}
+.intro-foto {
+  background-image: url('./intro-foto.jpg');
+  background-position: center;
+  width: 50%;
+  height: 600px;
+  margin: 50px 25px 50px 50px;
+  flex-shrink: 0;
+}
+.intro-intro {
+  height: 600px;
+  margin: 50px 50px 75px 25px;
+  padding: 80px 20px;
+  border: 1px solid red;
+}
+.intro-text {
+  font-size: 16;
+}
+/* ------------STŘEDNÍ ROZLIŠENÍ od 620px --------------*/
+
+/* @media screen and (min-width: 640px)  */
+
+/* -----------VELKÉ ROZLIŠENÍ od 992px ----------*/
+
+/* @media screen and (min-width: 992px) */

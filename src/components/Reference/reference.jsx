@@ -4,8 +4,8 @@ import './style.css';
 export const Reference = () => {
   return (
     <>
-      <main className="main-reference">
-        <div className="container-reference">
+      <main>
+        <div className="reference-container">
           <div className="reference">
             <h1>Reference 1</h1>
             <p>

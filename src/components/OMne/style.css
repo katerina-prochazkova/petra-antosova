@@ -1,0 +1,35 @@
+.omne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.omne-info {
+  display: flex;
+}
+.omne-text {
+  height: 400px;
+  width: 400px;
+  font-weight: bolder;
+  font-size: 20px;
+  color: black;
+  border: 1px solid red;
+  border-radius: 50%;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.omne-foto {
+  background-image: url('./petra-foto.jpg');
+  background-position: center center;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+/* ------------STŘEDNÍ ROZLIŠENÍ od 620px --------------*/
+
+/* @media screen and (min-width: 640px)  */
+
+/* -----------VELKÉ ROZLIŠENÍ od 992px ----------*/
+
+/* @media screen and (min-width: 992px) */
