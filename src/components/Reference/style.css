@@ -1,0 +1,20 @@
+.main-reference {
+  width: 100%;
+}
+.container-reference {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.reference {
+  width: 200px;
+  height: 200px;
+}
+
+/* ------------STŘEDNÍ ROZLIŠENÍ od 620px --------------*/
+
+/* @media screen and (min-width: 640px)  */
+
+/* -----------VELKÉ ROZLIŠENÍ od 992px ----------*/
+
+/* @media screen and (min-width: 992px) */
